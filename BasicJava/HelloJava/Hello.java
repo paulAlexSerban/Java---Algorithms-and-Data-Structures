@@ -1,3 +1,5 @@
+package BasicJava.HelloJava;
+
 public class Hello {
     public static void main(String[] args) {
         // the traditional first line of code in any programming language

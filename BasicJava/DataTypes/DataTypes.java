@@ -9,6 +9,8 @@ public class DataTypes {
          * it has a MIN_VALUE and a MAX_VALUE to store numbers
          */
         int firstInteger = 1000;
+        System.out.println(firstInteger);
+
         int minimumInteger = Integer.MIN_VALUE; // -2147483648
         int maximumInteger = Integer.MAX_VALUE; // 2147483647
 
@@ -42,6 +44,8 @@ public class DataTypes {
          * long values need a L at the end of the number to tell the compiler it is a long value
          */
         long firstLong = 100L;
+        System.out.println(firstLong);
+
         long minimumLong = Long.MIN_VALUE;
         long maximumLong = Long.MAX_VALUE;
         System.out.println("Minimum long value " + minimumLong);
@@ -75,9 +79,9 @@ public class DataTypes {
          */
 
         float minimumFloat = Float.MIN_VALUE;
-        float maximumFlaot = Float.MAX_VALUE;
+        float maximumFloat = Float.MAX_VALUE;
         System.out.println("Minimum float number " +  minimumFloat);
-        System.out.println("Maximum float number " + maximumFlaot);
+        System.out.println("Maximum float number " + maximumFloat);
 
         double minimumDouble = Double.MIN_VALUE;
         double maximumDouble = Double.MAX_VALUE;
@@ -85,8 +89,13 @@ public class DataTypes {
         System.out.println("Maximum double number " + maximumDouble);
 
         int intValue = 5;
+        System.out.println(intValue);
+
         float floatValue = 5.25f;
+        System.out.println(floatValue);
+
         double doubleValue = 5.35d;
+        System.out.println(doubleValue);
 
         /**
          * Floating Point Number Precision Tips
@@ -94,7 +103,7 @@ public class DataTypes {
          * calculations are required - this is due to a limitation with how floating point numbers a re stored,
          * and not a Java problem as such
          *
-         * - Java has a class called BigDeciaml that overcomes this
+         * - Java has a class called BigDecimal that overcomes this
          * - to keep in mind that when precise calculations are necessary, such as when currency calculations,
          * floating-point types should not be used
          */
@@ -106,14 +115,20 @@ public class DataTypes {
          * - it is not a single byte because ut allows to store Unicode characters
          */
 	    char firstChar = 'D';
+        System.out.println(firstChar);
+
 	    char unicodeChar = '\u0044';
+        System.out.println(unicodeChar);
 
         /**
          * Boolean
          * - allows two choices True or False, Yes or No, 1 or 0
          */
         boolean trueBooleanValue = true;
-        boolean falseBooleanvalue = false;
+        System.out.println(trueBooleanValue);
+
+        boolean falseBooleanValue = false;
+        System.out.println(falseBooleanValue);
 
         /**
          * String
@@ -125,5 +140,6 @@ public class DataTypes {
          */
 
         String firstString = "This is a string";
+        System.out.println(firstString);
     }
 }
