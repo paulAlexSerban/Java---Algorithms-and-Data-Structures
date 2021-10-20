@@ -1,6 +1,6 @@
 package BasicJava.HelloJava;
 
-public class Hello {
+public class HelloJava {
     public static void main(String[] args) {
         // the traditional first line of code in any programming language
         System.out.println("Hello World");
@@ -12,3 +12,4 @@ public class Hello {
         System.out.println(firstNumber + secondNumber);
     }
 }
+

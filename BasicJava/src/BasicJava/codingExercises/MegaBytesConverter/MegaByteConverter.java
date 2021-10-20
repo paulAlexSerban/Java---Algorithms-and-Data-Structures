@@ -1,4 +1,4 @@
-package BasicJava.codingExercies.MegaBytesConverter;
+package BasicJava.codingExercises.MegaBytesConverter;
 
 public class MegaByteConverter {
     public static void printMegaBytesAndKiloBytes (int kiloBytes) {

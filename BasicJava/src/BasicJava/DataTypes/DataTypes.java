@@ -114,10 +114,10 @@ public class DataTypes {
          * - it occupies two bytes of memory, or 16 bits
          * - it is not a single byte because ut allows to store Unicode characters
          */
-	    char firstChar = 'D';
+        char firstChar = 'D';
         System.out.println(firstChar);
 
-	    char unicodeChar = '\u0044';
+        char unicodeChar = '\u0044';
         System.out.println(unicodeChar);
 
         /**
@@ -143,3 +143,4 @@ public class DataTypes {
         System.out.println(firstString);
     }
 }
+

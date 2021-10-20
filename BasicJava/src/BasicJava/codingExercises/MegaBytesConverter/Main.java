@@ -1,4 +1,4 @@
-package BasicJava.codingExercies.MegaBytesConverter;
+package BasicJava.codingExercises.MegaBytesConverter;
 
 public class Main {
     public static void main(String[] args) {
